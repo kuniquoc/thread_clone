@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     DATABASE_URL: str = "postgresql://admin:admin@localhost/threads"
     
     # Security
-    SECRET_KEY: str = "your-secret-key-here"  # Change in production!
+    SECRET_KEY: str = "con-so-gi-day"  # Change in production!
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     
